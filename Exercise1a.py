@@ -19,4 +19,5 @@ Created on Fri Jan 27 11:24:20 2023
 Pi = 0
 for N in range(100):
     Pi += 8 / ((4*N + 1) * (4*N + 3))
-    print(Pi)
+    
+print(Pi)
