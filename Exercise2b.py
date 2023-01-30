@@ -15,6 +15,8 @@ def Matrix_Multiplication(a,b):
 a = np.array([[1,2],[3,4]])
 b = np.array([[1,2],[3,4]])
 
+print(a)
+
 Matrix_Multiplication(a,b)
 
 #print(np.dot(a[0],a[1]))
