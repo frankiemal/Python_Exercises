@@ -8,7 +8,7 @@ Created on Mon Jan 30 13:51:45 2023
 
 import numpy as np
 
-#Q7A
+#Q7a
 #PI_A = np.linalg.pinv
 
 #Q7B
