@@ -19,3 +19,14 @@ PI_A = np.linalg.pinv(A)
 Ap_A = PI_A @ A
 print(Ap_A)
 #returns same to inverse
+
+#Q7C
+b = np.array([[2], [4], [6], [8]])
+
+# A+Ax = A+(b)
+# so Ix = A+(b)
+x = PI_A @ b 
+print(x)
+
+#vector x = A+(b) minimises error ||Ax-b|| (||.|| = Eulidean norm)
+#minimisng ||Ax-b|| known as LEAST SQUARES PROBLEM
